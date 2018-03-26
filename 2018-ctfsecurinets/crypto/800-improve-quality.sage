@@ -62,14 +62,4 @@ flag = ''
 for i in range(0,len(K),2):
     flag += chr(int(K[i:i+2]))
 
-print flag.lower()
-# CONVERT THIS TO LOWER CASE FIRST :
-# THIS IMAGE CONTAINS THE FLAG, TRY TO GET IT
-# THE SUBMITTED FLAG MUST BE IN THIS FORMAT:
-# FLAG-EC[WHAT YOU'LL FIND IN THE IMAGE]
-# IMAGE URL:
-# HTTP://CRYPTO.CTFSECURINETS.COM/1/STEG-PART.PNG
-
-# download the image, use "stegsolve" and get the flag
-
-# flag-ec[EC_St!e-g1(a)no]
+print flag

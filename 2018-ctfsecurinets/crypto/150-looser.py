@@ -14,5 +14,3 @@ for i in enc:
 with open('flag.png', 'w') as f:
     f.write(dec)
     f.close()
-    
-# Flag{Hopefully_headers_are_constants}
