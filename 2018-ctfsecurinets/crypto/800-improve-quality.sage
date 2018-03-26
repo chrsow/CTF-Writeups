@@ -63,12 +63,12 @@ for i in range(0,len(K),2):
     flag += chr(int(K[i:i+2]))
 
 print flag.lower()
-# convert this to lower case first :
-# this image contains the flag, try to get it
-# the submitted flag must be in this format:
-# flag-ec[what you'll find in the image]
-# image url:
-# http://crypto.ctfsecurinets.com/1/steg-part.png
+# CONVERT THIS TO LOWER CASE FIRST :
+# THIS IMAGE CONTAINS THE FLAG, TRY TO GET IT
+# THE SUBMITTED FLAG MUST BE IN THIS FORMAT:
+# FLAG-EC[WHAT YOU'LL FIND IN THE IMAGE]
+# IMAGE URL:
+# HTTP://CRYPTO.CTFSECURINETS.COM/1/STEG-PART.PNG
 
 # download the image, use "stegsolve" and get the flag
 
